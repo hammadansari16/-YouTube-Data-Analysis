@@ -1,17 +1,39 @@
 # -YouTube-Data-Analysis
 
-This project focuses on scraping and analyzing YouTube data using Python. It collects video-related information from YouTube and performs exploratory data analysis to uncover insights about content performance and audience engagement.
+This project focuses on scraping and analyzing data from some of India’s most popular YouTubers:
+Raj Shamani 
 
- Features
+DhruvRathee
 
-Scraping YouTube video data (title, views, likes, comments, etc.)
+The Deshbhakt
 
-Data cleaning and preprocessing for analysis
+Mohak Mangal
 
-Exploratory data analysis (EDA) on video performance
+The aim is to uncover insights about content trends, engagement patterns, and audience interactions using data-driven methods.
 
-Visualizations to identify trends and patterns
+## Project Workflow
+       
+1. API Setup
 
-Insights into factors that influence video popularity and engagement
+2. Generated an API key using the YouTube Data API v3
 
-This project demonstrates how Python can be applied in web scraping and data analysis to extract meaningful insights from social media platforms.
+
+3. Channel Identification
+
+Retrieved channel IDs for each YouTuber to uniquely identify their channels.
+
+4. Data Extraction
+
+Fetched video details (title, publish date, views, likes, comments, etc.) using API calls.
+
+5. Data Cleaning & Preparation
+
+Structured the dataset into a usable format with Pandas.
+
+6. Exploratory Data Analysis (EDA)
+
+Analyzed metrics like: Views, Published Date, etc to check their datatypes and converting them into strings when required
+
+7. Visualization
+
+Created barplot to highlight patterns across creators.
